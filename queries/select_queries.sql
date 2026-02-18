@@ -1,0 +1,27 @@
+SELECT P.FullName, A.Date, A.Time
+FROM PATIENT P
+JOIN APPOINTMENT A ON P.PatientID = A.PatientID;
+
+SELECT P.FullName AS PatientName,
+D.FullName AS DoctorName,
+A.Date,
+MR.Diagnosis,
+PR.Medication
+FROM PATIENT P
+JOIN APPOINTMENT A ON P.PatientID = A.PatientID
+JOIN DOCTOR D ON A.DoctorID = D.DoctorID
+JOIN MEDICAL_RECORD MR ON A.AppointmentID = MR.AppointmentID
+JOIN PRESCRIPTION PR ON MR.RecordID = PR.RecordID;
+
+SELECT SUM(TotalAmount) AS TotalIncome
+FROM BILL;
+
+SELECT Medication
+FROM PRESCRIPTION
+WHERE RecordID IN (
+SELECT RecordID FROM MEDICAL_RECORD
+WHERE AppointmentID IN (
+SELECT AppointmentID FROM APPOINTMENT
+WHERE PatientID = 1
+)
+);
