@@ -52,17 +52,17 @@ Smart-Clinic-Management-System-Database
 ├── README.md
 ├── ERD.png
 ├── schema/
-│   └── create_tables.sql
+│ └── create_tables.sql
 │
 ├── data/
-│   └── insert_sample_data.sql
+│ └── insert_sample_data.sql
 │
 ├── queries/
-│   ├── select_queries.sql
-│   ├── update_delete.sql
+│ ├── select_queries.sql
+│ └── update_delete.sql
 │
 └── docs/
-    └── normalization_and_fd.md
+└── normalization_and_fd.md
 
 ---
 
