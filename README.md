@@ -45,27 +45,6 @@ The database design includes ER modeling, relational schema conversion, normaliz
 
 ---
 
-## Project Structure
-
-Smart-Clinic-Management-System-Database
-│
-├── README.md
-├── ERD.png
-├── schema/
-│ └── create_tables.sql
-│
-├── data/
-│ └── insert_sample_data.sql
-│
-├── queries/
-│ ├── select_queries.sql
-│ └── update_delete.sql
-│
-└── docs/
-└── normalization_and_fd.md
-
----
-
 ## Database Design
 
 The database was designed using ER modeling and converted into a relational schema.
