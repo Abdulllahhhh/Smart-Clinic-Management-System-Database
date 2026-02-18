@@ -19,8 +19,6 @@ The system manages:
 
 The database design includes ER modeling, relational schema conversion, normalization (3NF / BCNF), and SQL implementation.
 
----
-
 ## System Entities
 
 1. PATIENT
@@ -30,8 +28,6 @@ The database design includes ER modeling, relational schema conversion, normaliz
 5. PRESCRIPTION
 6. BILL
 
----
-
 ## Relationships
 
 - One Patient can have many Appointments (1:M)
@@ -39,8 +35,6 @@ The database design includes ER modeling, relational schema conversion, normaliz
 - One Appointment generates at most one Medical Record (1:1)
 - One Medical Record can have many Prescriptions (1:M)
 - Each Appointment has exactly one Bill (1:1)
-
----
 
 ## Database Design
 
@@ -53,8 +47,6 @@ All tables include:
 - Proper cardinalities
 - Business rules constraints
 
----
-
 ## Normalization
 
 All relations satisfy:
@@ -64,8 +56,6 @@ All relations satisfy:
 
 There are no partial or transitive dependencies.
 
----
-
 ## SQL Implementation
 
 The project includes:
@@ -74,5 +64,3 @@ The project includes:
 - DML (INSERT sample data)
 - SELECT queries (joins, subqueries, aggregation)
 - UPDATE and DELETE commands
-
----
