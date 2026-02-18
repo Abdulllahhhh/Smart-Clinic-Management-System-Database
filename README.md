@@ -64,3 +64,7 @@ The project includes:
 - DML (INSERT sample data)
 - SELECT queries (joins, subqueries, aggregation)
 - UPDATE and DELETE commands
+
+## ER Diagram
+
+![ER Diagram](ERD.png)
