@@ -1,0 +1,6 @@
+UPDATE BILL
+SET Status = 'Paid'
+WHERE BillID = 300;
+
+DELETE FROM APPOINTMENT
+WHERE AppointmentID = 100;
