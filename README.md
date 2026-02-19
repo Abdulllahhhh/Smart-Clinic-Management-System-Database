@@ -1,9 +1,4 @@
 # Smart Clinic Management System - Database
-
-Course: Database Systems Lab (CIT 350L)  
-Experiment: #9  
-Title: Smart Clinic Management System (SCMS)
-
 ## Overview
 
 This project presents the design and implementation of a Smart Clinic Management System database.
